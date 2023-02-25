@@ -1,0 +1,258 @@
+/* .error {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 120px 0;
+  background: linear-gradient(#000000cc, #000000cc),
+    url("https://coreldrawdesign.com/resources/previews/preview-sad-emoji-3d-wallpaper,-download-free-amazing-high-resolution-backgrounds-images-1636367926.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.error h1 {
+  font-size: 100px;
+  font-family: monospace;
+  color: rgb(240, 240, 240);
+}
+
+.error h2 {
+  font-size: 50px;
+  color: rgb(235, 235, 235);
+}
+
+.error a {
+  text-decoration: none;
+} */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* .error-body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+} */
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 50vh;
+  z-index: 0;
+  filter: grayscale(1);
+  mix-blend-mode: luminosity;
+}
+.error-body .message {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bottom {
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.error-body {
+  overflow: hidden;
+  padding: 100px 0;
+  background: linear-gradient(#0000009d, #0000009d),
+    url("https://i.pinimg.com/originals/b8/a3/cd/b8a3cd1fad69ee87b4a843ca7769f49a.gif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.message h1 {
+  /* position: absolute;
+  top: 10%;
+  left: 0%; */
+  color: #28abe3;
+  width: 100%;
+  font-size: 10em;
+  margin: 0;
+  animation: shake 600ms ease-in-out infinite alternate;
+  text-shadow: 0 0 0.07em #28abe3, -0.2em 0 2em rgba(175, 211, 61, 0.3),
+    0.2em 0 2em rgba(175, 211, 61, 0.3);
+  user-select: none;
+}
+/* .message h1:before {
+  content: attr(t);
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0.34em);
+  height: 0.1em;
+  line-height: 0.5em;
+  width: 100%;
+  animation: scan 500ms ease-in-out infinite alternate 588ms,
+    glitch-anim 300ms ease-in-out infinite alternate;
+  overflow: hidden;
+  opacity: 0.7;
+} */
+/* .error-body .message h1:after {
+  content: attr(t);
+  position: absolute;
+  top: -17px;
+  left: 50%;
+  transform: translate(-50%, 0.34em);
+  height: 0.5em;
+  line-height: 0.1em;
+  width: 100%;
+  animation: scan 665ms ease-in-out infinite alternate 259ms,
+    glitch-anim 300ms ease-in-out infinite alternate;
+  overflow: hidden;
+  opacity: 0.8;
+} */
+
+.error-body .message p {
+  font-size: 2em;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: monospace;
+  text-shadow: 0 0 10px #000000;
+  filter: blur(0.2px);
+}
+/* .error-body .message a {
+  color: #28abe3;
+  text-decoration: none;
+  font-weight: 700;
+  border: 2px solid #28abe3;
+  text-transform: uppercase;
+  padding: 5px 30px;
+  box-shadow: inset 0 0 0 0 rgba(175, 211, 61, 0.2);
+  transition: 25ms ease-in-out all 0ms;
+  overflow: hidden;
+  animation: attn 3s ease-in-out infinite;
+} */
+/* .error-body .message a:hover {
+  cursor: crosshair;
+  box-shadow: inset 0 -2em 0 0 rgba(175, 211, 61, 0.2);
+  transition: 225ms ease-in-out all 225ms;
+  animation: none;
+} */
+/* .error-body .message a:hover:before,
+.error-body .message a:hover:after {
+  transform: translate(-50%, 0) scale(0, 1);
+}
+.error-body .message a:active {
+  box-shadow: inset 0 -2em 0 0 rgba(175, 211, 61, 0.5);
+  transition: 225ms ease-in-out all 225ms;
+}
+.error-body .message a:before,
+.error-body .message a:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0) scale(1, 1);
+  transform-origin: center;
+  background-color: #11111b;
+  width: 90%;
+  height: 5px;
+  transition: 225ms ease-in-out all;
+  mix-blend-mode: hard-light;
+}
+.error-body .message a:before {
+  top: -4px;
+}
+.error-body .message a:after {
+  bottom: -4px;
+} */
+@keyframes scan {
+  from,
+  20%,
+  100% {
+    height: 0;
+    transform: translate(-50%, 0.44em);
+  }
+  10%,
+  15% {
+    height: 1em;
+    line-height: 0.2em;
+    transform: translate(-55%, 0.26em);
+  }
+}
+@keyframes pulse {
+  from {
+    text-shadow: 0 0 0 #28abe3, 0 0 0 rgba(175, 211, 61, 0.3),
+      0 0 0 rgba(175, 211, 61, 0.3);
+  }
+  to {
+    text-shadow: 0 0 0.07em #28abe3, -0.2em 0 2em rgba(175, 211, 61, 0.3),
+      0.2em 0 2em rgba(175, 211, 61, 0.3);
+  }
+}
+@keyframes attn {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  30%,
+  35% {
+    opacity: 0.4;
+  }
+}
+@keyframes shake {
+  0%,
+  100% {
+    transform: translate(-1px, 0);
+  }
+  10% {
+    transform: translate(2px, 1px);
+  }
+  30% {
+    transform: translate(-3px, 2px);
+  }
+  35% {
+    transform: translate(2px, -3px);
+    filter: blur(4px);
+  }
+  45% {
+    transform: translate(2px, 2px) skewY(-8deg) scale(0.96, 1);
+    filter: blur(0);
+  }
+  50% {
+    transform: translate(-3px, 1px);
+  }
+}
+@keyframes glitch-anim {
+  0% {
+    clip: rect(58px, 9999px, 31px, 0);
+  }
+  10% {
+    clip: rect(99px, 9999px, 3px, 0);
+  }
+  20% {
+    clip: rect(76px, 9999px, 39px, 0);
+  }
+  30% {
+    clip: rect(71px, 9999px, 70px, 0);
+  }
+  40% {
+    clip: rect(20px, 9999px, 2px, 0);
+  }
+  50% {
+    clip: rect(59px, 9999px, 95px, 0);
+  }
+  60% {
+    clip: rect(70px, 9999px, 71px, 0);
+  }
+  70% {
+    clip: rect(32px, 9999px, 75px, 0);
+  }
+  80% {
+    clip: rect(10px, 9999px, 51px, 0);
+  }
+  90% {
+    clip: rect(31px, 9999px, 23px, 0);
+  }
+  100% {
+    clip: rect(26px, 9999px, 19px, 0);
+  }
+}

@@ -1,0 +1,30 @@
+.aboutTeam {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 0;
+  padding: 30px 0;
+  gap: 20px;
+}
+
+.aboutTeamLeft {
+  flex-basis: 48%;
+}
+
+.aboutTeamRight {
+  flex-basis: 48%;
+}
+@media (max-width: 992px) {
+  .aboutTeamLeft {
+    flex-basis: 98%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+  }
+
+  .aboutTeamRight {
+    flex-basis: 98%;
+  }
+}

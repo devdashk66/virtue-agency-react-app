@@ -1,0 +1,41 @@
+.sectionTitleWrapper {
+  background: #f5f5f5;
+  margin-top: 30px;
+}
+
+.section_Title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  margin: auto;
+  padding: 40px 0;
+  text-align: center;
+  gap: 15px;
+}
+
+.section_Title h1 {
+  font-size: 35px;
+  color: #232323;
+  font-weight: 600;
+}
+
+.section_Title p {
+  color: #444;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .section_Title {
+    width: 100%;
+  }
+  .section_Title h1 {
+    font-size: 30px;
+  }
+
+  .section_Title p {
+    color: #848484;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,38 @@
+.createDesign {
+  margin: 60px 0 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.createDesignInfo {
+  flex-basis: 48%;
+}
+
+.createDesignImg {
+  flex-basis: 48%;
+}
+
+.createDesignInfo h2 {
+  font-size: 32px;
+  color: #3c3c3c;
+  margin-bottom: 20px;
+}
+
+.createDesignInfo p {
+  color: #858585;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 992px) {
+  .createDesignInfo {
+    flex-basis: 98%;
+  }
+
+  .createDesignImg {
+    flex-basis: 98%;
+  }
+}

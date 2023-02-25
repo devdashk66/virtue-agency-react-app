@@ -1,0 +1,44 @@
+.heroWrapper {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../../../images/slider-bg-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 30px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  width: 500px;
+  padding: 150px 0;
+  margin: auto;
+}
+
+.hero h2 {
+  font-size: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+.hero p {
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    width: 100%;
+  }
+  .hero h2 {
+    font-size: 40px;
+  }
+  .hero p {
+    font-size: 14px;
+  }
+}

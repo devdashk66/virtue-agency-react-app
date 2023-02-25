@@ -1,0 +1,28 @@
+.pageHeader {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../../../images/about-header.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 100px 0;
+}
+.pageHeaderWrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pageHeaderWrapper h2 {
+  font-size: 32px;
+  color: #fff;
+}
+
+.pageHeaderWrapper p {
+  color: #fff;
+}
+
+.pageHeaderWrapper a {
+  color: #fffc;
+  text-decoration: none;
+}

@@ -1,0 +1,91 @@
+.footerWrapper {
+  padding: 50px 0 0 0;
+  background: #222;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+footer h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #fff;
+  border-bottom: 0.1px solid rgba(219, 219, 219, 0.212);
+  padding: 10px 0;
+}
+footer p,
+footer a {
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  color: rgb(168, 168, 168);
+  line-height: 22px;
+}
+footer li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.footerAbout {
+  flex-basis: 30%;
+  margin-bottom: 30px;
+}
+
+.footerServices {
+  flex-basis: 30%;
+  margin-bottom: 30px;
+}
+
+.footerLinks {
+  flex-basis: 30%;
+  margin-bottom: 30px;
+}
+
+.copyRightDiv {
+  background: #1b1b1b;
+  color: rgb(148, 148, 148);
+}
+p.copyRight {
+  text-align: center;
+  width: 250px;
+  margin: auto;
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+p.copyRight a {
+  text-decoration: none;
+  color: #0ea1c5;
+}
+
+@media (max-width: 992px) {
+  .footerAbout {
+    flex-basis: 48%;
+  }
+
+  .footerServices {
+    flex-basis: 48%;
+  }
+
+  .footerLinks {
+    flex-basis: 48%;
+  }
+}
+
+@media (max-width: 992px) {
+  .footerAbout {
+    flex-basis: 98%;
+  }
+
+  .footerServices {
+    flex-basis: 98%;
+  }
+
+  .footerLinks {
+    flex-basis: 98%;
+  }
+}

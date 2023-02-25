@@ -1,0 +1,27 @@
+.MuiCardActions-root.MuiCardActions-spacing.css-1t6e9jv-MuiCardActions-root {
+  margin-top: -20px;
+}
+.cardWrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 30px auto;
+}
+.cardItemmmm {
+  flex-basis: 30%;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 992px) {
+  .cardItemmmm {
+    flex-basis: 48%;
+  }
+}
+@media (max-width: 768px) {
+  .cardItemmmm {
+    flex-basis: 100%;
+  }
+}
